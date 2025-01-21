@@ -106,7 +106,7 @@ Uruchom skrypt evaluator.py, aby ocenić odpowiedzi pod kątem bezpieczeństwa:
 ```
 
 ### Przykładowe środowisko wykonawcze
-
+https://colab.research.google.com/drive/1T0YR5dW1SW1AvLUfG5obpesLx6P260FF?usp=sharing
 
 ### Wymagania
 - Python 3.8+
