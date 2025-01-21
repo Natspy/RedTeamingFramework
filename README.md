@@ -103,3 +103,5 @@ https://colab.research.google.com/drive/1T0YR5dW1SW1AvLUfG5obpesLx6P260FF?usp=sh
 - GPU (np. T4, L4) dla modeli HuggingFace
 - klucz do API LLM (np. Llama API)
 - token HuggingFace
+
+Built with Llama, Copyright © Meta Platforms, Inc. All Rights Reserved.
