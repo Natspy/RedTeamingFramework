@@ -5,7 +5,6 @@ Projekt został stworzony w celu testowania, analizy oraz moderacji treści gene
 Głównym celem frameworka jest przeprowadzenie red-teamingu, czyli identyfikacji potencjalnych zagrożeń związanych z generowaniem nieodpowiednich treści przez modele językowe. 
 Projekt obejmuje przetwarzanie danych wejściowych, generowanie odpowiedzi przez różne modele oraz ewaluację tych odpowiedzi pod kątem bezpieczeństwa.
 
----
 
 ## Funkcjonalności
 
@@ -39,7 +38,6 @@ Projekt obejmuje przetwarzanie danych wejściowych, generowanie odpowiedzi przez
      - Podgląd wygenerowanych odpowiedzi.
      - Łatwą konfigurację parametrów w środowisku Colab.
 
----
 
 ## Struktura projektu
 
@@ -60,7 +58,6 @@ Projekt obejmuje przetwarzanie danych wejściowych, generowanie odpowiedzi przez
 - **`data/`**  
   Folder zawierający dane wejściowe (prompty) oraz wyjściowe (odpowiedzi).
 
----
 
 ## Instrukcja użycia
 
