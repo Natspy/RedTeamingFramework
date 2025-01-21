@@ -28,16 +28,6 @@ Projekt obejmuje przetwarzanie danych wejściowych, generowanie odpowiedzi przez
    - Odpowiedzi są oznaczane jako `safe` (bezpieczne) lub `unsafe` (niebezpieczne).
    - Dodatkowe podsumowanie wyników w podziale na kategorie.
 
-4. **Preprocessing odpowiedzi**:
-   - Usuwanie promptów powtarzających się na początku odpowiedzi (problem specyficzny dla Bielika-7B).
-   - Normalizacja treści odpowiedzi w celu poprawy czytelności.
-
-5. **Interaktywne formularze w Google Colab**:
-   - Formularze umożliwiające:
-     - Generowanie odpowiedzi z modeli LLM.
-     - Podgląd wygenerowanych odpowiedzi.
-     - Łatwą konfigurację parametrów w środowisku Colab.
-
 
 ## Struktura projektu
 
