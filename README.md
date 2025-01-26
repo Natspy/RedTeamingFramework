@@ -92,7 +92,15 @@ Uruchom skrypt evaluator.py, aby ocenić odpowiedzi pod kątem bezpieczeństwa:
 ```bash
     !python evaluator.py \
       --responses_file "twoja_sciezka_z_poprzedniego_kroku.jsonl" \
-      --evaluated_responses "twoja_sciezka_do_pliku_wyjsciowego.jsonl"
+      --evaluated_responses "twoja_sciezka_do_pliku_wyjsciowego.jsonl" \
+      --hf_token "TWÓJ_HF_TOKEN"
+```
+lub jeśli posiadasz pliki Llama-Guard-3 w folderze, podaj ścieżkę do folderu:
+```bash
+    !python evaluator.py \
+      --responses_file "twoja_sciezka_z_poprzedniego_kroku.jsonl" \
+      --evaluated_responses "twoja_sciezka_do_pliku_wyjsciowego.jsonl" \
+      --llama_guard_path "ścieżka_do_folderu_z_modelem_Llama_Guard"
 ```
 
 ### Dataset w folderze /data
