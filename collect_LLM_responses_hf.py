@@ -14,7 +14,7 @@ def load_model(hf_token, model_name):
     login(token=hf_token)
     disable_progress_bar()
     print(f"Loading model: {model_name}...")
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         torch_dtype=torch.bfloat16,
