@@ -95,6 +95,9 @@ Uruchom skrypt evaluator.py, aby ocenić odpowiedzi pod kątem bezpieczeństwa:
       --evaluated_responses "twoja_sciezka_do_pliku_wyjsciowego.jsonl"
 ```
 
+### Dataset w folderze /data
+Źródło: https://huggingface.co/datasets/JerzyPL/GadziJezyk
+
 ### Przykładowe środowisko wykonawcze
 https://colab.research.google.com/drive/1T0YR5dW1SW1AvLUfG5obpesLx6P260FF?usp=sharing
 
